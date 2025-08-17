@@ -1,4 +1,4 @@
-######                 #####   #####   #####    ###   
+######                 #####   #####   #####    ###       
 #     # ###### #    # #     # #     # #     #  #   #  
 #     # #      #    # #       #     #       # #     # 
 #     # #####  #    # ######   ######  #####  #     # 
@@ -42,6 +42,7 @@ while True:
     account_id = match1.group(1)
     player_name = match_player_name1.group(1)
     print(f"Account ID: {account_id}")
-    print(f"Username: {player_name}")
+    print(f"Username: {player_name}") Sdot2comp
   else:
     print("Cant find Account ID ")
+
