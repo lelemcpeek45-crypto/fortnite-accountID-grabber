@@ -15,7 +15,7 @@ print("Coded by dev github/dev6920")
 
 while True:
   
-  username = input("Enter username (type 'exit' to quit): ")
+  username = input("Enter username (type 'exit' to quit): ") Sdot2comp
 
   if username == "exit":
     break
@@ -34,7 +34,7 @@ while True:
   match1 = re.search(account_id_regex, page_source1)
 
 
-  player_name_regex = r'"playerName":\s*"([^"]+)"'
+  player_name_regex = r'"playerName":\s*"([^"]+)"' Sdot2comp
   match_player_name1 = re.search(player_name_regex, page_source1)
 
 
@@ -45,3 +45,4 @@ while True:
     print(f"Username: {player_name}")
   else:
     print("Cant find Account ID ")
+
